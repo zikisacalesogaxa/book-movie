@@ -97,6 +97,7 @@ export default class Page extends Component {
 							<h1>Booking for: <i><u>{bookingMovie}</u></i></h1>
 							<input id="username" type="text" placeholder="username" required />
 							<div className="actions">
+								<center><h1>Select Time Slot</h1></center>
 								<div className="time">
 									<p>Two PM Slot</p>
 									<button onClick={this.book} value="two_pm">
